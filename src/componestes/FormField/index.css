@@ -1,0 +1,31 @@
+.campoForm {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 0;
+}
+
+input {
+    display: block;
+    height: 50px;
+    padding: 20px 15px;
+}
+
+input[type='color'] {
+    width: 600px;
+    flex: 1;
+    height: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 800px) {
+    input[type='color'] {
+        width: 400px;
+    }
+}
